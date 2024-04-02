@@ -640,6 +640,10 @@ section .container {
   color: #fff;
 }
 
+.resume p{
+  text-align: justify;
+}
+
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
@@ -672,6 +676,7 @@ section .container {
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  text-align: justify;
 }
 
 .resume .resume-item:last-child {
