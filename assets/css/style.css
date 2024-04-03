@@ -778,6 +778,22 @@ section .container {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.banner {
+  background: #e60303;
+  background: -webkit-linear-gradient(to right, #290201, #c04222, #8f0c06);
+  background: linear-gradient(to right, #270202, #db2e21, #2e0403);
+}
+
+
+
+
+
+
+
+
+
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -861,7 +877,7 @@ section .container {
   top: 35px;
   left: 35px;
   border-top: 3px solid #fff;
-  border-left: 3px solid #fff;
+  border-left: 3px solid #ffffff;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -908,7 +924,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #a00404;
+  color: #eb0909;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -932,6 +948,7 @@ section .container {
   bottom: 15px;
   right: 15px;
 }
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
