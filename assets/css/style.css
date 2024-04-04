@@ -22,6 +22,8 @@ body::before {
   position: fixed;
   background: #040404 url("../img/bg-hans2.jpg") top right no-repeat;
   background-size: cover;
+  filter: saturate(0);
+
   left: 0;
   right: 0;
   top: 0;
@@ -640,7 +642,7 @@ section .container {
   color: #fff;
 }
 
-.resume p{
+.resume p {
   text-align: justify;
 }
 
@@ -1183,15 +1185,15 @@ section .container {
   background: linear-gradient(to right, #f5f4f4, #e48e88, #e6120f);
 }
 
-.badge-color-git{
+.badge-color-git {
   background-color: #ca0808;
 }
 
-.badge-color-web{
+.badge-color-web {
   background-color: #e80368;
 }
 
-.badge-color-social{
+.badge-color-social {
   background-color: #ff5828;
 }
 
