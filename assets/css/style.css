@@ -780,12 +780,14 @@ section .container {
 --------------------------------------------------------------*/
 
 .banner {
-  background: #e60303;
-  background: -webkit-linear-gradient(to right, #290201, #c04222, #8f0c06);
-  background: linear-gradient(to right, #270202, #db2e21, #2e0403);
+  background: #bb243e;
+  background: -webkit-linear-gradient(to right, #e99f9f, #c04222, #8f0c06);
+  background: linear-gradient(to right, #f5f4f4, #e48e88, #e6120f);
 }
 
-
+.badge-color{
+  background-color: #ca0808;
+}
 
 
 
