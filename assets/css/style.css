@@ -54,9 +54,15 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
+
+
+
+
 #header {
   transition: ease-in-out 0.3s;
   position: relative;
@@ -80,6 +86,17 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
+#header h1  {
+  background: linear-gradient(
+    to right, 
+    hsl(0, 94%, 37%), 
+    hsl(24, 97%, 47%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
 #header h1 a,
 #header h1 a:hover {
   color: #fff;
@@ -97,7 +114,8 @@ h6 {
   color: #fff;
   border-bottom: 2px solid #ca0808;
   padding-bottom: 6px;
-}
+} 
+
 
 #header img {
   padding: 0;
@@ -191,6 +209,117 @@ h6 {
     font-size: 26px;
   }
 }
+
+
+
+/*--------------------------------------------------------------
+# social-links facebook
+--------------------------------------------------------------*/
+
+#header .social-links-face a {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+#header .social-links-face a:hover {
+  background: #187bfc;
+}
+
+#header.header-top .social-links-face,
+#header.header-top h2 {
+  display: none;
+}
+
+/*--------------------------------------------------------------
+# social-links twitter
+--------------------------------------------------------------*/
+
+#header .social-links-twitter a {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+#header .social-links-twitter a:hover {
+  background: #1DA1F2;
+}
+
+#header.header-top .social-links-twitter,
+#header.header-top h2 {
+  display: none;
+}
+
+/*--------------------------------------------------------------
+# social-links Insta
+--------------------------------------------------------------*/
+
+#header .social-links-insta a {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+#header .social-links-insta a:hover {
+  background: #D43089;
+}
+
+#header.header-top .social-links-insta,
+#header.header-top h2 {
+  display: none;
+}
+
+/*--------------------------------------------------------------
+# social-links Linkedin
+--------------------------------------------------------------*/
+
+#header .social-links-linkedin a {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+#header .social-links-linkedin a:hover {
+  background: #0073b1;
+}
+
+#header.header-top .social-links-linkedin,
+#header.header-top h2 {
+  display: none;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -405,6 +534,16 @@ section .container {
   color: #fff;
 }
 
+.section-title p   {
+  background: linear-gradient(
+    to right, 
+    hsl(0, 94%, 37%), 
+    hsl(24, 97%, 47%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
